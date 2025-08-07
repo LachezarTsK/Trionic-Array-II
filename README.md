@@ -25,20 +25,19 @@ and yet, the sum of this slope has maximum value.
 
 Cases when the strictly increasing array is at the end.
 
-1.	All values are non-negative. Example: 0, 1, 2, 3, 4, 5.
+1. All values are non-negative. Example: 0, 1, 2, 3, 4, 5.
 In this case all values are included in the sum.
 
-2.	Negative values precede the non-negative.
+2. Negative values precede the non-negative.
 
-2.1	Subcase when the sum of all negative and non-negative values is less than the sum of the
+2.1. Subcase when the sum of all negative and non-negative values is less than the sum of the
 first two negative values. Example: -5, -4, -3, -2, -1, 0, 1, 2 where (- 5 - 4) > (- 5 - 4 - 3 - 2 - 1 + 0 + 1 + 2)
 In this case, only the first two negative values are selected, and the rest are skipped, so that there is still an increasing slope, and yet, the sum of this slope has maximum value.
 
-2.2	Subcase when the sum of all negative and non-negative values is greater than the sum of the
+2.2. Subcase when the sum of all negative and non-negative values is greater than the sum of the
 first two negative values. Example: -5, -4, -3, -2, -1, 0, 100, 200 where (- 5 - 4) < (- 5 - 4 - 3 - 2 - 1 + 0 + 100 + 200) In this case, obviously, all values are selected.
 
-
-3.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
+3. All values are negative. Example: -6, -5, -4, -3, -2, -1.
 In this case, just as in case 2.1, only the first two negative values are selected.
 
 In the trionic array, the end value of the first increasing slope is shared with the start value of the decreasing slope, and the end value of the decreasing slope is shared with the start value of the second increasing slope. To avoid double counting, these shared values are counted towards the increasing slopes. 
