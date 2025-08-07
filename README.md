@@ -31,7 +31,7 @@ In this case all values are included in the sum.
 2. Negative values precede the non-negative.
 
    2.1. Subcase when the sum of all negative and non-negative values is less than the sum of the
-first two negative values. Example: -5, -4, -3, -2, -1, 0, 1, 2 where (- 5 - 4) > (- 5 - 4 - 3 - 2 - 1 + 0 + 1 + 2)
+   first two negative values. Example: -5, -4, -3, -2, -1, 0, 1, 2 where (- 5 - 4) > (- 5 - 4 - 3 - 2 - 1 + 0 + 1 + 2)
 In this case, only the first two negative values are selected, and the rest are skipped, so that there is still an increasing slope, and yet, the sum of this slope has maximum value.
 
    2.2. Subcase when the sum of all negative and non-negative values is greater than the sum of the
