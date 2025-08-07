@@ -2,6 +2,7 @@
 Challenge at LeetCode.com. Tags: Sliding Window, Math, Design.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Considerations for design.**
 
 The input range includes both negative and non-negative values and the problem defines a trionic array, as an array with three slopes. At the start: strictly increasing. At the middle: strictly decreasing. At the end: strictly increasing. 
 
