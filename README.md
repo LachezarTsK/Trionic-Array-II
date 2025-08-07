@@ -18,12 +18,12 @@ In this case, all values are included in the sum.
 2.	Negative values precede the non-negative.
 
   	2.1   There are two or more non-negative values. Example: -4, -2, -1, 5, 6, 8.
-In this case, all negative values are skipped and only the non-negative ones are selected. 
+In this case, all negative values are skipped and only the non-negative ones are selected.
 
-2.2	There is only one non-negative value: Example: -8, -6, -5 -4, -2, 8.
+   2.2	There is only one non-negative value: Example: -8, -6, -5 -4, -2, 8.
 In this case, the non-negative value is picked along with its preceding negative value.
 
-3.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
+4.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
 In this case, only the last two values are selected, so that there is still an increasing slope,
 and yet, the sum of this slope has maximum value.
 
@@ -39,7 +39,7 @@ In this case all values are included in the sum.
 first two negative values. Example: -5, -4, -3, -2, -1, 0, 1, 2 where (- 5 - 4) > (- 5 - 4 - 3 - 2 - 1 + 0 + 1 + 2).
 In this case, only the first two negative values are selected, and the rest are skipped, so that there is still an increasing slope, and yet, the sum of this slope has maximum value.
 
-2.2	Subcase when the sum of all negative and non-negative values is greater than the sum of the
+    2.2	Subcase when the sum of all negative and non-negative values is greater than the sum of the
 first two negative values. Example: -5, -4, -3, -2, -1, 0, 100, 200 where (- 5 - 4) < (- 5 - 4 - 3 - 2 - 1 + 0 + 100 + 200). In this case, obviously, all values are selected.
 
 
