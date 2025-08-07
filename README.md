@@ -22,7 +22,7 @@ In this case, all values are included in the sum.
 In this case, all negative values are skipped and only the non-negative ones are selected.
 
     2.2	 There is only one non-negative value: Example: -8, -6, -5 -4, -2, 8.
-In this case, the non-negative value is picked along with its preceding negative value.
+In this case, the non-negative value is picked along with its preceding negative value. Thus, there is still an increasing slope but the sum of this slope has maximum value.
 
 4.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
 In this case, only the last two values are selected, so that there is still an increasing slope,
