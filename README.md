@@ -10,7 +10,7 @@ To achieve maximum sum, this necessitates special handling of the strictly incre
 The middle section is handled normally, i.e. all values are included in the sum, since not selecting one or more values in this section will leave a gap and then the array will not be trionic. 
 
 
-Cases when the strictly increasing array is at the start.
+**Cases when the strictly increasing array is at the start.**
 
 1.	All values are non-negative. Example: 0, 1, 2, 3, 4, 5.
 In this case, all values are included in the sum.
@@ -28,7 +28,7 @@ In this case, only the last two values are selected, so that there is still an i
 and yet, the sum of this slope has maximum value.
 
 
-Cases when the strictly increasing array is at the end.
+**Cases when the strictly increasing array is at the end.**
 
 1.	All values are non-negative. Example: 0, 1, 2, 3, 4, 5.
 In this case all values are included in the sum.
