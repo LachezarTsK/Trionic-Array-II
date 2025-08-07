@@ -20,7 +20,7 @@ In this case, all values are included in the sum.
   	2.1   There are two or more non-negative values. Example: -4, -2, -1, 5, 6, 8.
 In this case, all negative values are skipped and only the non-negative ones are selected.
 
-   2.2	There is only one non-negative value: Example: -8, -6, -5 -4, -2, 8.
+    2.2	 There is only one non-negative value: Example: -8, -6, -5 -4, -2, 8.
 In this case, the non-negative value is picked along with its preceding negative value.
 
 4.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
