@@ -46,10 +46,14 @@ first two negative values. Example: -5, -4, -3, -2, -1, 0, 100, 200 where (- 5 -
 3.	All values are negative. Example: -6, -5, -4, -3, -2, -1.
 In this case, just as in case 2.1, only the first two negative values are selected.
 
+**Shared values between slopes.**
+
 In the trionic array, the end value of the first increasing slope is shared with the start value of the decreasing slope, and the end value of the decreasing slope is shared with the start value of the second increasing slope. To avoid double counting, these shared values are counted towards the increasing slopes. 
 
 Example: 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, 5. 
 First increasing sum: (1 + 2 + 3 + 4 + 5). Decreasing sum: (4 + 3 + 2). Second increasing sum: (1 + 2 + 3 + 4 + 5). 
+
+**Creating a list for slopes and applying a sliding window on it.**
 
 Considering all these details to calculate the sum of a slope, a list is created where each element of the list represents the sum of a particular slope, increasing, decreasing, or horizontal (which has a value 0 and is not included in the calculations). Each element is marked with either -1 for decreasing, or 1 for increasing, or 0 for horizontal section. 
 
